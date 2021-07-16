@@ -119,3 +119,20 @@ input[name="r"] {
 	transition: all ease 0.4s;
 }
 
+.dark body {
+	background-color: rgb(7, 3, 66);
+}
+.dark a {
+	color: #fff;
+}
+.dark .slider {
+	border: 5px solid rgb(161, 160, 160);
+}
+
+.dark  .bar {
+	background-color: rgb(161, 160, 160);
+}
+
+.dark  .gallery {
+	border: 5px solid #fff;
+}

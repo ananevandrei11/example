@@ -78,3 +78,31 @@ function handleTouchMove(event) {
 }
 
 
+
+addDarkThemeHtml();
+document.querySelector('.themetoggle').addEventListener('click', (e) => {
+	e.preventDefault();
+	if (localStorage.getItem('theme') === 'dark') {
+		localStorage.removeItem('theme');
+		addDarkThemeHtml();
+	} else {
+		localStorage.setItem('theme', 'dark');
+		addDarkThemeHtml();
+	}
+});
+
+function addDarkThemeHtml() {
+	try {
+		if (localStorage.getItem('theme') === 'dark') {
+			document.querySelector('html').classList.add('dark');
+			document.querySelector('.themetoggle span').textContent = 'dark_mode';
+		} else {
+			document.querySelector('html').classList.remove('dark');
+			document.querySelector('.themetoggle span').textContent = 'wb_sunny';
+		}
+	} catch (err) {
+		console.log(err);
+	}
+}
+
+addDarkThemeHtml();
