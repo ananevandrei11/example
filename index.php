@@ -7,17 +7,9 @@
 	<title>Document</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="slidercss/slider.html">SLIDER ONLY CSS</a>
-				</li>
-				<li>
-					<a href="imges/images.html">WORK WITH IMAGES</a>
-				</li>
-			</ul>
-		</nav>
+		<?php
+		include ('nav.php');
+		?>
 	</header>
 </body>
 </html>

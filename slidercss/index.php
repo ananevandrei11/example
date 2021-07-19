@@ -10,12 +10,12 @@
 </head>
 
 <body>
+		<?php
+			include("../nav.php");
+		?>
 	<header>
 		<nav>
 			<ul>
-				<li>
-					<a href="../index.html">MAIN PAGE</a>
-				</li>
 				<li>
 					<a href="#" class="themetoggle">Toggle theme<span class="material-icons">wb_sunny</span></a>
 				</li>

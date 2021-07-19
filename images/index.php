@@ -10,13 +10,9 @@
 
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="../index.html">MAIN PAGE</a>
-				</li>
-			</ul>
-		</nav>
+		<?php
+			include("../nav.php");
+		?>	
 	</header>
 
 	<main>
