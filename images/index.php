@@ -14,7 +14,7 @@
 			include("../nav.php");
 		?>	
 	</header>
-
+	<h1>IMAGES</h1>
 	<main>
 		<div class="box">
 		</div>
