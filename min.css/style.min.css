@@ -1,0 +1,1 @@
+.root-nav{width:15%}.root-nav li{position:relative;background-color:#434343;padding-left:0;cursor:pointer}.root-nav a,.root-nav span{text-decoration:none;color:#eee;display:block;padding:5px 10px}.root-nav ul{display:none;position:absolute;top:0;right:-100%;width:100%}.root-nav .sub-menu-active{display:block}
